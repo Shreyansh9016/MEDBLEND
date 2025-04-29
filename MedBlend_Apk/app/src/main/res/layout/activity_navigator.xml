@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:padding="24dp"
+    tools:context=".Navigator">
+
+    <!-- Top Buttons (Logout & Profile) -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <ImageButton
+            android:id="@+id/logoutButton"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:focusable="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/baseline_logout_24"
+            android:contentDescription="Logout"/>
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+        <ImageButton
+            android:id="@+id/careButton"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:focusable="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/add"
+            android:contentDescription="Profile"
+            />
+    </LinearLayout>
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/dashboardTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Health Hub"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:fontFamily="monospace"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"/>
+
+    <!-- Logo -->
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/logo1"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="24dp" />
+
+    <!-- Buttons Vertical List -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="70dp">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/seriesButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Set Alarm"
+            android:backgroundTint="#66D9FF"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:cornerRadius="8dp"
+            app:strokeColor="@android:color/black"
+            app:strokeWidth="2dp"
+            android:layout_marginBottom="12dp"
+            android:paddingVertical="16dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/playersButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Find Medicine"
+            android:backgroundTint="#33C6FF"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:cornerRadius="8dp"
+            app:strokeColor="@android:color/black"
+            app:strokeWidth="2dp"
+            android:layout_marginBottom="12dp"
+            android:paddingVertical="16dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/teamsButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Scan"
+            android:backgroundTint="#00BFFF"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:cornerRadius="8dp"
+            app:strokeColor="@android:color/black"
+            app:strokeWidth="2dp"
+            android:layout_marginBottom="12dp"
+            android:paddingVertical="16dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/statsButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Health Records"
+            android:backgroundTint="#0099CC"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:cornerRadius="8dp"
+            app:strokeColor="@android:color/black"
+            app:strokeWidth="2dp"
+            android:paddingVertical="16dp"/>
+    </LinearLayout>
+
+</LinearLayout>

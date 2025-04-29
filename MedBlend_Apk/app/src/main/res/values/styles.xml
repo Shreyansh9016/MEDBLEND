@@ -1,0 +1,49 @@
+<resources>
+
+    <style name="CustomDashboardButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_width">0dp</item> <!-- Equally divide buttons in a row -->
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item> <!-- Share equal space -->
+        <item name="android:padding">12dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">16sp</item>
+        <item name="cornerRadius">12dp</item> <!-- Rounded corners -->
+        <item name="android:elevation">4dp</item> <!-- Slight shadow -->
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="CustomButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_width">match_parent</item> <!-- Full width button -->
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">14dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">18sp</item> <!-- Slightly bigger text -->
+        <item name="cornerRadius">16dp</item> <!-- More rounded corners -->
+        <item name="android:elevation">6dp</item> <!-- A little more shadow -->
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="InputStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/colorPrimary</item>
+        <item name="boxStrokeWidth">1dp</item>
+    </style>
+
+    <style name="ButtonStyle" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/colorPrimary</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+    <style name="Widget.MyApp.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxCornerRadiusTopStart">8dp</item>
+        <item name="boxCornerRadiusTopEnd">8dp</item>
+        <item name="boxCornerRadiusBottomStart">8dp</item>
+        <item name="boxCornerRadiusBottomEnd">8dp</item>
+    </style>
+    <style name="Theme.YourApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+
+
+
+</resources>

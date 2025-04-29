@@ -1,0 +1,108 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/background"
+    tools:context=".Sign_In">
+
+    <!-- Welcome Text -->
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:text="Welcome to MediBlend,"
+        android:textColor="#000"
+        android:textSize="35sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Sign in to continue!"
+        android:textColor="@color/light_black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <!-- Username Input -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        app:boxStrokeColor="#000"
+        android:textColorHint="@color/light_black"
+        app:boxBackgroundMode="none"
+        app:hintAnimationEnabled="true"
+        app:startIconDrawable="@drawable/username"
+        app:startIconTint="#000"
+        app:hintTextColor="@color/light_black"
+        app:hintTextAppearance="@style/CustomHintStyle"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/usernamee"
+            android:textStyle="normal"
+            android:textColor="#000"
+            android:hint="Username"
+            android:textColorHint="@color/light_black"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        app:boxStrokeColor="#000"
+        android:layout_gravity="center"
+        android:textColorHint="@color/light_black"
+        app:boxBackgroundMode="none"
+        app:startIconDrawable="@drawable/lock"
+        app:startIconTint="#000"
+        app:endIconMode="password_toggle"
+        app:endIconTint="#000"
+        app:hintTextColor="@color/light_black"
+        app:hintTextAppearance="@style/CustomHintStyle"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/pass"
+            android:textColor="#000"
+            android:inputType="textPassword"
+            android:hint="Password"
+            android:textStyle="normal"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Sign Up Button -->
+    <Button
+        android:id="@+id/signbtn"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#0ac690"
+        android:text="Sign In"
+        android:visibility="visible"
+        android:textColor="#FFFFFF" />
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:visibility="gone"
+        />
+
+</LinearLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primaryColor">#6200EE</color> <!-- Main theme color -->
+    <color name="primaryDark">#3700B3</color> <!-- Darker shade of primaryColor -->
+    <color name="primaryLight">#BB86FC</color> <!-- Lighter shade of primaryColor -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="blue_light">#4A90E2</color> <!-- Light blue -->
+    <color name="blue_medium">#0066CC</color> <!-- Medium blue -->
+    <color name="blue_dark">#003366</color>  <!-- Dark blue -->
+    <color name="red_dark">#8B0000</color>
+    <color name="red">#FF0000</color>
+    <color name="base_color">#66b2b2</color> <!-- Base teal color -->
+    <color name="base_color_light">#99cccc</color> <!-- Lighter variant -->
+    <color name="base_color_dark">#339999</color> <!-- Darker variant -->
+    <color name="base_color_darkest">#006666</color> <!-- Even darker shade -->
+    <color name="base_color_lightest">#cceeee</color> <!-- Very light shade -->
+    <color name="loop_active">#fff</color> <!-- Green for active -->
+    <color name="loop_inactive">#99CCCC</color> <!-- White for inactive -->
+    <color name="light_black">#2D2D2D</color> <!-- Light black color -->
+    <color name="orange">#e85011</color> <!-- Orange color -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="green">#029322</color>
+    <color name="pale_yellow">#817405</color>
+    <color name="pale_yellow2">#B0817405</color>
+    <color name="primary">#0AC690</color>
+    <color name="primaryVariant">#078E6F</color>
+    <color name="onPrimary">#FFFFFF</color>
+    !-- Primary brand color -->
+    <color name="colorPrimary">#3F51B5</color>  <!-- Indigo -->
+    <color name="colorPrimaryDark">#303F9F</color>  <!-- Darker indigo -->
+    <color name="colorPrimaryLight">#C5CAE9</color>  <!-- Lighter indigo -->
+    <color name="colorAccent">#FF4081</color>  <!-- Pink accent -->
+
+    <!-- Status colors -->
+    <color name="bp_normal">#4CAF50</color>  <!-- Green -->
+    <color name="bp_elevated">#FFC107</color>  <!-- Amber -->
+    <color name="bp_high">#F44336</color>  <!-- Red -->
+
+    <!-- Diabetes colors -->
+    <color name="sugar_normal">#4CAF50</color>  <!-- Green -->
+    <color name="sugar_prediabetes">#FFC107</color>  <!-- Amber -->
+    <color name="sugar_diabetes">#F44336</color>  <!-- Red -->
+
+    <!-- Text colors -->
+    <color name="textPrimary">#212121</color>  <!-- Dark gray -->
+    <color name="textSecondary">#757575</color>  <!-- Medium gray -->
+
+    <!-- Background colors -->
+    <color name="background">#FAFAFA</color>  <!-- Very light gray -->
+    <color name="cardBackground">#FFFFFF</color>  <!-- White -->
+    <color name="primary_color">#6200EE</color>
+    <color name="grey_800">#424242</color>
+    <color name="divider_color">#EEEEEE</color>
+    <color name="error_text_color">#B00020</color>
+
+    <color name="grey_200">#EEEEEE</color>
+    <color name="grey_600">#757575</color>
+</resources>
