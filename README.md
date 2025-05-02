@@ -79,4 +79,4 @@ We believe technology can simplify healthcare and improve lives. 💙
 ### Setup Instructions
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Shreyansh9016/medblend.git
+   git clone https://github.com/Shreyansh9016/MEDBLEND.git
